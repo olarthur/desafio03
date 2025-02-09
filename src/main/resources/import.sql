@@ -1,0 +1,10 @@
+INSERT INTO tb_client(name, cpf, income, birth_date, children) VALUES ('Antonin-Dalmace Sertillanges', '011.123.324-45', 5000.0, '1863-11-16', 2);
+INSERT INTO tb_client(name, cpf, income, birth_date, children) VALUES ('Zygmunt Bauman', '122.234.435-56', 6500.0, '1925-11-19', 3);
+INSERT INTO tb_client(name, cpf, income, birth_date, children) VALUES ('William Shakespeare', '233.345.546-57', 4000.0, '1564-04-23', 0);
+INSERT INTO tb_client(name, cpf, income, birth_date, children) VALUES ('Epicuro', '344.456.657-68', 1100.0, '0314-02-07', 4);
+INSERT INTO tb_client(name, cpf, income, birth_date, children) VALUES ('Epiteto', '455.567.768-79', 2300.0, '0135-01-11', 1);
+INSERT INTO tb_client(name, cpf, income, birth_date, children) VALUES ('Marco Aurélio', '566.678.879-80', 17000.0, '0121-04-26', 2);
+INSERT INTO tb_client(name, cpf, income, birth_date, children) VALUES ('Séneca', '677.789.980-91', 9060.0, '0065-08-15', 4);
+INSERT INTO tb_client(name, cpf, income, birth_date, children) VALUES ('Zenão de Cítio', '788.890.091-02', 3190.0, '0334-02-26', 5);
+INSERT INTO tb_client(name, cpf, income, birth_date, children) VALUES ('Júlio César', '899.901.102-13', 11070.0, '0100-07-01', 3);
+INSERT INTO tb_client(name, cpf, income, birth_date, children) VALUES ('Marco Antônio', '900.012.213-24', 8400.0, '0083-01-14', 2);
