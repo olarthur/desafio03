@@ -34,4 +34,9 @@ public class ClientController {
         dto = service.update(id, dto);
         return dto;
     }
+
+    @DeleteMapping(value = "/{id}")
+    public void delete(@PathVariable Long id) {
+        service.delete(id);
+    }
 }
