@@ -27,6 +27,7 @@ public class ClientService {
         return result.map(ClientDTO::new);
     }
 
+    @Transactional
     public ClientDTO insert(ClientDTO dto) {
         Client entity = new Client();
         copyDtoToEntity(dto, entity);
@@ -34,6 +35,17 @@ public class ClientService {
         entity = repository.save(entity);
         return new ClientDTO(entity);
     }
+
+    @Transactional
+    public ClientDTO update(Long id, ClientDTO dto) {
+        Client entity = repository.getReferenceById(id);
+        copyDtoToEntity(dto, entity);
+
+        entity = repository.save(entity);
+        return new ClientDTO(entity);
+    }
+
+
 
     public void copyDtoToEntity(ClientDTO dto, Client entity) {
         entity.setName(dto.getName());
